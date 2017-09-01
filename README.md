@@ -4,6 +4,12 @@
 
 This is a nice introduction to [React](https://facebook.github.io/react/) as well as the use of [npm](https://www.npmjs.com/) and [create-react-app](https://github.com/facebookincubator/create-react-app).
 
+Check it out here:
+
+        https://mramshaw.github.io/Corkboard/
+
+Click on the "+" icon (top right) to create a new note. Edit it and drag it to where it makes sense. Have fun!
+
 ## npm test
 
 The tutorial does not cover this, so here are the steps to make `npm test` pass:
@@ -25,11 +31,15 @@ it('renders without crashing', () => {
 });
 ```
 
-## pushing the Corkboard App to Github.io
+Currently the only test consists of the default "smoke test" installed by "create-react-app".
+
+For more information on testing refer to the [create-react-app testing documentation](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#command-line-interface).
+
+## Deploy the Corkboard App to Github.io
 
 [I spent a day or so wrestling with this - there are probably better ways to do this, but this worked.]
 
-1. Create a new repo on GitHub, do not create __README.md__ or __.gitignore__ files
+1. Create a new repo on GitHub (mine is called Corkboard), do not create __README.md__ or __.gitignore__ files
 2. Check out the repo (this will create a new directory):
 
         $ git clone https://github.com/mramshaw/Corkboard.git
@@ -39,13 +49,17 @@ it('renders without crashing', () => {
 
         $ cd Corkboard
 
-5. One of the prerequisites is [gh-pages](https://www.npmjs.com/package/gh-pages), so best to install it:
+5. [OPTIONAL, but a best practice] Test the project:
 
-        $ npm install --save gh-pages
+        $ npm test
 
 6. Build the project:
 
         $ npm run build
+
+7. One of the prerequisites is [gh-pages](https://www.npmjs.com/package/gh-pages), so best to install it:
+
+        $ npm install --save gh-pages
 
 8. Deploy the project:
 
@@ -55,9 +69,9 @@ Read up on GitHub Pages here:
 
         https://help.github.com/categories/github-pages-basics/
 
-There are some restrictions on Web Apps on GitHub Pages, for instance my Google font is not served.
+There are some restrictions on Web Apps on GitHub Pages, for instance my chosen Google font is not served.
 
-Web Apps may be published on either the __master__ or __gh-pages__ branches, or else from the __/docs__ folder on the __master branch__:
+Web Apps may be published on either __master__ or __gh-pages__ branches, or else from the __/docs__ folder on the __master__ branch:
 
         https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/
 
@@ -68,7 +82,8 @@ The formal instructions may be found at [GitHub](https://github.com/facebookincu
 - [x] Change background to corkboard
 - [x] Change Font and text colour of Notes
 - [x] Rename and edit App.test.js so `npm test` passes
-- [ ] Add instructions on using __npm__ to push Web App to __github.io__
+- [x] Change title of Web App to __Corkboard (React App)__
+- [ ] Add instructions on publishing the Web App to __github.io__
 - [ ] Investigate bundling a font with the published Web App
 - [ ] Allow colour of note to be changed
 - [ ] Update to React v16.0
