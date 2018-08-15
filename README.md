@@ -88,7 +88,7 @@ The formal instructions may be found at [GitHub](https://github.com/facebookincu
 - [ ] Allow colour of note to be changed
 - [ ] Update to React v16.0
 - [ ] Update to Babel 0.6 (according to the [create-react-app documentation](https://github.com/facebookincubator/create-react-app) it is not necessary to install Babel) 
-- [ ] Update to Node 6
+- [ ] Update to Node LTS (currently Node 8)
 
 ## Credits
 
