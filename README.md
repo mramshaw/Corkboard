@@ -58,9 +58,9 @@ For more information on testing refer to the [create-react-app testing documenta
 
         $ npm run build
 
-7. One of the prerequisites is [gh-pages](https://www.npmjs.com/package/gh-pages), so best to install it:
+7. One of the prerequisites is [gh-pages](http://www.npmjs.com/package/gh-pages), so best to install it:
 
-        $ npm install --save gh-pages
+        $ npm install --save-dev gh-pages
 
 8. Deploy the project:
 
@@ -68,13 +68,13 @@ For more information on testing refer to the [create-react-app testing documenta
 
 Read up on GitHub Pages here:
 
-        https://help.github.com/categories/github-pages-basics/
+        http://help.github.com/categories/github-pages-basics/
 
 There are some restrictions on Web Apps on GitHub Pages, for instance only __https__ URLs will be served.
 
 Web Apps may be published on either __master__ or __gh-pages__ branches, or else from the __/docs__ folder on the __master__ branch:
 
-        https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/
+        http://help.github.com/articles/configuring-a-publishing-source-for-github-pages/
 
 The formal instructions may be found at [create-react-app.dev](http://create-react-app.dev/docs/deployment/#github-pages).
 
@@ -95,6 +95,6 @@ The formal instructions may be found at [create-react-app.dev](http://create-rea
 
 Based upon:
 
-        https://www.lynda.com/React-js-tutorials/Learn-React-js-Basics/519668-2.html
+        http://www.lynda.com/React-js-tutorials/Learn-React-js-Basics/519668-2.html
 
 The course material is extremely well-constructed, no big jumps in difficulty.
