@@ -10,6 +10,8 @@ Check it out here:
 
 Click on the "+" icon (top right) to create a new note. Edit it and drag it to where it makes sense. Have fun!
 
+[The app uses [react-draggable](http://www.npmjs.com/package/react-draggable) to make the notes draggable.]
+
 ## npm test
 
 The tutorial does not cover this, so here are the steps to make `npm test` pass:
@@ -90,6 +92,7 @@ The formal instructions may be found at [create-react-app.dev](http://create-rea
 - [ ] Update to React v16.0
 - [x] Update to Node LTS (currently __v12.13.1__)
 - [x] Update all links
+- [x] Add link for [react-draggeable](http://www.npmjs.com/package/react-draggable)
 
 ## Credits
 
