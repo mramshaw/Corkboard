@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Corkboard/static/css/main.5e0ebf76.chunk.css",
-    "main.js": "/Corkboard/static/js/main.6947ae8b.chunk.js",
-    "main.js.map": "/Corkboard/static/js/main.6947ae8b.chunk.js.map",
+    "main.css": "/Corkboard/static/css/main.716d2b13.chunk.css",
+    "main.js": "/Corkboard/static/js/main.963e140a.chunk.js",
+    "main.js.map": "/Corkboard/static/js/main.963e140a.chunk.js.map",
     "runtime-main.js": "/Corkboard/static/js/runtime-main.5416f8b2.js",
     "runtime-main.js.map": "/Corkboard/static/js/runtime-main.5416f8b2.js.map",
     "static/js/2.2c148137.chunk.js": "/Corkboard/static/js/2.2c148137.chunk.js",
     "static/js/2.2c148137.chunk.js.map": "/Corkboard/static/js/2.2c148137.chunk.js.map",
     "index.html": "/Corkboard/index.html",
-    "precache-manifest.278e9ddd8ac06bd00e79fa503089af2f.js": "/Corkboard/precache-manifest.278e9ddd8ac06bd00e79fa503089af2f.js",
+    "precache-manifest.1fa931b1064a208f622a4bfd905ac303.js": "/Corkboard/precache-manifest.1fa931b1064a208f622a4bfd905ac303.js",
     "service-worker.js": "/Corkboard/service-worker.js",
-    "static/css/main.5e0ebf76.chunk.css.map": "/Corkboard/static/css/main.5e0ebf76.chunk.css.map",
+    "static/css/main.716d2b13.chunk.css.map": "/Corkboard/static/css/main.716d2b13.chunk.css.map",
     "static/media/App.css": "/Corkboard/static/media/corkboard.e912c8e0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5416f8b2.js",
     "static/js/2.2c148137.chunk.js",
-    "static/css/main.5e0ebf76.chunk.css",
-    "static/js/main.6947ae8b.chunk.js"
+    "static/css/main.716d2b13.chunk.css",
+    "static/js/main.963e140a.chunk.js"
   ]
 }
